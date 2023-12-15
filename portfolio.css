@@ -1,0 +1,186 @@
+.navbar-toggler-icon {
+  color: white;
+}
+
+#title {
+  background-color: #000000;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  color: rgb(50, 193, 237);
+}
+
+/* Jumbotron */
+.custom-jumbotron {
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  padding:0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white; 
+}
+
+.nav-item {
+  padding: 0 18px; 
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1 rem;
+  font-weight: bold;
+  color: rgb(69, 78, 81);
+}
+
+.custom-navbar {
+  background-color: #000000; 
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: rgb(69, 78, 81); 
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: rgb(50, 193, 237); 
+}
+
+.custom-navbar .navbar-toggler:hover .navbar-toggler-icon {
+  background-color: rgb(50, 193, 237);
+}
+
+
+/* Carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px; 
+  color: #fff; 
+}
+ 
+.custom-slider .carousel-indicators li {
+  background-color: rgb(50, 193, 237);
+} 
+
+.custom-slider .carousel-indicators .active {
+  background-color: rgb(255, 255, 255); 
+}
+
+/*Features and Icons*/
+#features {
+  padding: 7% 15%;
+  background-color:rgb(0, 0, 0);
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: rgb(69, 78, 81);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(50, 193, 237);
+}
+
+.custom-padding {
+  padding-right: 100 px;
+}
+
+.feature-box h3 {
+  font-size: 1.5rem; 
+}
+
+@media (max-width: 768px) {
+  .feature-box h3 {
+      font-size: 1rem; 
+  }
+}
+
+/* CTA */
+#cta {
+  background-color:#000000;
+  color: white;
+  padding:7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.button {
+  background-color:#000000; 
+  color: rgb(50, 193, 237); 
+  border-color: rgb(50, 193, 237);
+}
+
+.button:hover {
+  background-color: rgb(50, 193, 237); 
+  color: white; 
+  border-color: white; 
+}
+
+
+/* Footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #000000;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: rgb(50, 193, 237);
+}
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+}
